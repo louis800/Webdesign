@@ -1,0 +1,103 @@
+body{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+    }
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(1, 185, 241);
+    text-align: center;
+    float: left;
+    padding: 5px;
+    }
+#navigatie{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(64, 64, 64);
+    float: left;
+    padding: 5px;
+    margin-top: 5px;
+    }
+ul{list-style-type: circle;}
+.li{
+    display: inline-block;
+    height: 20px;
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+    border-left: 12px solid green;
+    border-right: 11px solid green;
+    background-color: rgb(0, 0, 139);
+    border-radius: 15px;
+    }
+.li a{color: white;}  
+.li:hover, .li a:hover{
+    background-color: rgb(234, 252, 252);
+    color: darkblue;
+    }
+#inhoud {
+    width: 100%;
+    background-color: rgb(234, 252, 252);
+    float: left;
+    padding: 5px;
+    }
+#kol-l{
+    width: 250px;
+    height: 650px;
+    float: left;
+    background-color: rgb(64, 64, 64);
+    }
+#kol-r{
+    width: 740px;
+    height: 650px;
+    float: right;
+    color: blue;
+    font-size: 20px;
+    display:block;
+    overflow:auto
+    }
+.p{margin-left: 25px;}
+.a{
+    color: blue;
+    }
+.img-me{
+    height: 180px;
+    width: 180px;
+    padding: 35px;
+    }
+.img-pe{
+    height: 300px;
+    width: 200px;
+    padding: 25px;
+    }
+.img-va{
+    height: 500px;
+    width: 200px;
+    padding: 25px;
+    }
+input[type="text"], input[type="email"], textarea, select, button{
+    color: blue;
+    font-size: 20px;
+    display: block;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 5px; box-shadow: inset 2px 1px 2px rgb(1, 185, 241);
+    }
+textarea{
+    height: 100px;
+    padding: 5px 4px;
+    }
+#footer {
+    width: 100%;
+	height: 20px;
+	background-color:rgb(64, 64, 64);
+    color: rgb(234, 252, 252);
+	float: left;
+    text-align: center;
+    padding: 5px;
+    }
+.footer-mail a{ color: rgb(1, 185, 241)}
+.footer-mail a:hover{color: yellow;}
