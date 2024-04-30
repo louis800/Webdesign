@@ -1,6 +1,9 @@
 header {
     padding: 10px;
 }
+body{
+    padding-top: 10px;
+}
 main {
     background-color: rgb(255, 230, 200);
     color: black;
