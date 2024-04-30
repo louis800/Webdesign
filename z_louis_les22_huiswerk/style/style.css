@@ -1,0 +1,24 @@
+header {
+    padding: 10px;
+}
+main {
+    background-color: rgb(255, 230, 200);
+    color: black;
+    height: 575px;
+    display:block;
+    overflow:auto;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.footer {
+	min-height: 200px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 90px;
+    border-color: rgb(255, 230, 200);
+    border-style: double;
+}
+
+

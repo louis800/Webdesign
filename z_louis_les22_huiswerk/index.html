@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="NL">
+<head>
+<!-- Verplichte metatags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap-CSS -->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<title>Mijn website - Vraag en uitleg</title>
+</head>
+<body>
+    <div class="container-sm text-white bg-dark">
+        <header>
+            <h3 class="float-sm-end mb-0">Vraag en uitleg</h3>
+            <a button type="button" class="btn btn-primary" href="pages/home.html">Home</a></button>
+            <a button type="button" class="btn btn-secondary" href="pages/overmij.html">Over mij</a></button>
+            <a button type="button" class="btn btn-success" href="pages/contact.html">Contact</a></button>
+            &nbsp;&nbsp;&nbsp;
+            <a button type="button" class="btn btn-danger" href="pages/contact2.html">Contact2</a></button>
+            <a button type="button" class="btn btn-danger" href="pages/contact3.html">Contact3</a></button>
+            <a button type="button" class="btn btn-danger" href="index.html">Vraag en uitleg</a></button>
+        </header>
+
+        <main>
+            <div class="px-3 col-12">
+                <h2>Vraag en uitleg pagina.</h2>
+                <h5>Deze uitwerking start iets anders dan de huiswerkopdracht in de Les aangeeft.</h5>
+                <p>Hier heb ik voor gekozen omdat dit eerst gelezen moet worden voor de uitwerking van de les bekeken gaat worden. Het heeft enige uitleg nodig.<br>
+                    Het menu bestaat uit de buttons 'Home', 'Over mij' en 'Contact'. Dit zijn de paginas van de huiswerkopdracht van Les 22.<br>
+                    Vraag en uitleg, Contact2 en Contact3 zijn extra toegevoegd en heb ik voor een rode knop gekozen. Contact2 en 3 komen hieronder aan de orde.
+                </p>
+                <p>Hierdoor is de menustructuur iets aangepast.
+                    <table>
+                        <tr>
+                            <th style="width: 150px;">Pagina</th>
+                            <th>html pagina</th>
+                        </tr>
+                        <tr>
+                            <td>Home</td>
+                            <td>home.html</td>
+                        </tr>
+                        <tr>
+                            <td>Over mij</td>
+                            <td>overmij.html</td>
+                        </tr>
+                        <tr>
+                            <td>Contact</td>
+                            <td>contact.html</td>
+                        </tr>
+                        <tr>
+                            <td>Contact2</td>
+                            <td>contact2.html</td>
+                        </tr>
+                        <tr>
+                            
+                            <td>Contact3</td>
+                            <td>contact3.html</td>
+                        </tr>
+                        <tr>
+                            <td>Vraag en uitleg</td>
+                            <td>index.html</td>
+                        </tr>
+                    </table>
+                </p>
+                <p>Ik vind dit een zeer lastige opdracht. Gelukkig begrijp ik er wel eea van, maar net niet alles.
+                    Door gebruik te maken van opdrachten uit de voorgaande lessen ben ik tot dit eindresultaat gekomen.</p>
+                <h5>Mijn vragen.</h5>
+                <p>1.<br>
+                    Bewust heb ik de main een andere kleur en de footer een rand gegeven.<br>
+                    - Waarom is de main smaller waardoor je een zwarte rand krijgt, de achtergrondkleur van de container.<br>
+                    - Waarom is dit bij de footer niet het geval, de border loopt netjes tot de rand van de container.<br>
+                    &nbsp;&nbsp;
+                    Ik denk dat dit komt omdat &lt;div class="footer"&gt; in de &lt;div class="row row-cols"&gt; valt,
+                    alleen in de main werkt dit (bij mij) niet.
+                </p>
+                <p>2.<br>
+                    In de code staat: &lt;main class="px-3"&gt;. Als ik px wijzig van 1 t/m 5 zie ik het uitlijnen van de tekst start verschuiven.
+                    Maak ik er 6 of hoger van dan zie je niets, dan staat de tekst links uitgelijnd. Waar vind ik al deze instellingen.
+                </p>
+                <p>3.<br>
+                    In Les 22 wordt gesproken over buttons. Deze heb ik in m'n huiswerkopdracht ook gebruikt.
+                    Test ik nu de pagina's via W3C, dan krijg ik overal de melding dat 'a' niet icm 'button' gebruikt mag worden.
+                    Ik ben op internet op zoek gegaan maar kan eigelijk niet vinden hoe je dit op zou moeten lossen.
+                    Omdat het werkt heb ik het er in laten staan zodat je ook kunt zien wat ik bedoel.<br>
+                    Wat ik ook heb geprobeerd is om de code regel van de buttons anders op te stellen. Dit heb ik alleen bij de buttons van deze
+                    pagina (vraag en uitleg) gedaan. Maar ook dan krijg ik bij een controle via W3C de melding dat 'a' niet icm 'button' gebruikt mag worden.
+                    Dus ook deze manier van code schrijven lost dit niet op.
+                </p>
+                <p>4.<br>Verder heb ik een button "Contact2" en een button "Contact3" er bij gemaakt.<br>
+                    Kijk je bij Contact2 dan staan de invulvelden van het formulier in 2 kolommen die ik via &lt;div class="col..."&gt; heb gedefinieerd. Persoonlijk vind ik dit netter staan.
+                    Alleen als je het scherm gaat verkleinen gaat de kolommen over elkaar heen.<br>
+                    Bij Contact3 gaat het net iets beter, alleen blijven daar de invulvelden gelijk waardoor er uiteindelijk tekst over de invulvelden komt.
+                    Bij deze 2 heb ik bij de controle via W3C ook meldingen dat het niet goed gaat. Dit komt naar mijn idee doordat na de 1ste div de form komt en de volgorde van afsluiten niet klopt. 
+                    En dit komt volgens mij doordat ik met het formulier in verschillende &lt;div class="col..."&gt;'s heb gewerkt.<br>
+                    Bij Contact heb ik ook een formulier maar dan alles onder elkaar. Hier heb is via W3C alleen de foutmelding dat 'a' niet icm 'button' gebruikt mag worden.
+                </p>
+                <p>Al met al is dit volgens mij de eerste les met veel vragen.<br>
+                    Ik hoor graag hoe ik eea op moet lossen.
+                </p>
+            </div>
+        </main>
+
+        <footer>
+            <div class="row row-cols">
+                <div class="footer">
+                    &copy; 2024 Zegert Louis - Zwijndrecht
+                </div>
+            </div>
+        </footer>
+    </div>
+<!-- Bootstrap-JavaScript-->
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+integrity=
+"sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+crossorigin="anonymous">
+</script>
+</body>
+</html>

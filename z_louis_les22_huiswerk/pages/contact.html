@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="NL">
+<head>
+<!-- Verplichte metatags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap-CSS -->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../style/style.css">
+<title>Mijn website - Contact</title>
+</head>
+<body>
+    <div class="container-sm text-white bg-dark">
+        <header>
+            <h3 class="float-sm-end mb-0">Neem contact op</h3>
+            <button type="button" class="btn btn-primary"><a href="home.html">Home</a></button>
+            <button type="button" class="btn btn-secondary"><a href="overmij.html">Over mij</a></button>
+            <button type="button" class="btn btn-success"><a href="contact.html">Contact</a></button>
+            &nbsp;&nbsp;&nbsp;
+            <button type="button" class="btn btn-danger"><a href="contact2.html">Contact2</a></button>
+            <button type="button" class="btn btn-danger"><a href="contact3.html">Contact3</a></button>
+            <button type="button" class="btn btn-danger"><a href="../index.html">Vraag en uitleg</a></button>
+        </header>
+
+        <main>
+            <div class="px-3 row row-cols-12">
+                <div class="col-12">
+                    <h2>Welkom op mijn contactpagina</h2>
+                    <p>Leuk dat je de website hebt bekeken.<br>
+                        Op deze pagina staat een contactformlier, vul dit gerust in en ik probeer binnen 24 uur te reageren.<br>
+                        Bedankt voor je interesse en wie weet, tot ooit.
+                    </p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-4">
+                    <form style="width: 1000px" id="contactform" action="https://formspree.io/f/mwkdaowo" method="post">
+                        <fieldset><legend>Persoonlijke gegevens</legend>
+                            <table>
+                                <tr>
+                                    <td style="width: 150px"><label for="naam">Aanhef:</label></td>
+                                    <td style="width: 500px"><input type="radio" name="geslacht" value="man">Dhr
+                                    <input type="radio" name="geslacht" value="vrouw">Mw
+                                    <input type="radio" name="geslacht" value="anders">Anders</td>
+                                </tr>
+                                <tr>
+                                    <td><label for="naam">Naam:</label></td>
+                                    <td><input id="naam" type="text" name="naam" required></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="adres">Adres:</label></td>
+                                    <td><input id="adres" type="text" name="adres"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="postcode">Postcode:</label></td>
+                                    <td><input id="postcode" type="text" name="postcode" size="7" maxlength="7"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="woonplaats">Woonplaats:</label></td>
+                                    <td><input id="woonplaats" type="text" name="woonplaats"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="telefoonnummer">Telefoonnummer:</label></td>
+                                    <td><input id="telefoonnummer" type="text" name="telefoonnummer" required></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="email">E-mail:</label></td>
+                                    <td><input id="email" type="email" name="E-mail" required></td>
+                                </tr>
+                            </table>
+                        </fieldset>
+
+                        <fieldset><legend>Wat voor vraag heeft u</legend>
+                            <table>
+                                <tr>
+                                    <td style="width: 250px">Soort vraag</td>
+                                    <td style="width: 700px">
+                                        <input type="checkbox" name="onderwerpen" value="Tip">Tip
+                                        <input type="checkbox" name="onderwerpen" value="Vraag">Vraag
+                                        <input type="checkbox" name="onderwerpen" value="Klacht">Klacht
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Evt een foto als toelichting</td>
+                                    <td><input type="file" name="document"></td>
+                                </tr>
+                                <tr>
+                                    <td>Toelichting</td>
+                                    <td><textarea name ="bericht" maxlength ="1500" required></textarea></td>
+                                </tr>
+                            </table>
+                            <br><br><br>
+                            <input type="text" name="_gotcha" style="display:none">
+                            <input type="submit" value="Verzend" style="background-color: darkgoldenrod">
+                        </fieldset>
+                    </form>
+                    <br>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="row row-cols">
+                <div class="footer">
+                    &copy; 2024 Zegert Louis - Zwijndrecht
+                </div>
+            </div>
+        </footer>
+    </div>
+<!-- Bootstrap-JavaScript-->
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity=
+    "sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous">
+    </script>
+</body>
+</html>
