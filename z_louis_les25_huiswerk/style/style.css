@@ -1,0 +1,52 @@
+#container{
+  width: 800px;
+  height: 800px;
+  background-color: aquamarine;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding-top: 20px;
+}
+header{
+  width: 700px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+#sortable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 450px;
+  padding-top: 75px;
+  margin-left: 200px;
+}
+#sortable li {
+  margin: 3px 3px 3px 0;
+  padding: 1px;
+  float: left;
+  width: 100px;
+  height: 90px;
+  font-size: 4em;
+  text-align: center;
+}
+li{
+  border: 1px solid #a7a6a6;
+  background: #f6f6f6;
+  font-weight: normal;
+  color: #454545;
+}
+li:hover{
+  background: #a7a6a6;
+  color: #f6f6f6;
+}
+button{
+  width: 50px;
+}
+#verberg,#toon,#antwoord{
+  width: 250px;
+  margin-left: 280px;
+  margin-top: 10px;
+}
